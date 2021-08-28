@@ -1,0 +1,11 @@
+.header {
+  $__logo {
+    img {
+    }
+  }
+  $__menu { // Mobile Menu
+    > span { // using direct child selector
+     display: block;
+    }
+  }
+}
