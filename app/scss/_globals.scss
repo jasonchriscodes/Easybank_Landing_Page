@@ -1,0 +1,12 @@
+// adding boilerplate styles
+html {
+  font-size: 100%; // let the user control their zoom level
+  box-sizing: border-box; // makes the size of elements sort of include padding in the final width
+}
+
+// inherit that box-sizing border box to all elements using wild-card selector (before and after pseudo element)
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
