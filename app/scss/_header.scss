@@ -3,12 +3,19 @@
     img {
     }
   }
-  $__menu { // Mobile Menu
-    > span { // using direct child selector
-     display: block;
-     width: 26px;
-     height: 2px;
-     background-color: $darkBlue;
+  $__menu {
+    // Mobile Menu
+    > span {
+      // using direct child selector
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: $darkBlue;
+
+      // add some spaces between line using not selector
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
     }
   }
 }
