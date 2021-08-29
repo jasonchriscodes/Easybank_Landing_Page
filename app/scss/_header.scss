@@ -1,9 +1,12 @@
 .header {
-  $__logo {
+  nav {
+    padding: 24px;
+  }
+  &__logo {
     img {
     }
   }
-  $__menu {
+  &__menu {
     // Mobile Menu
     > span {
       // using direct child selector
