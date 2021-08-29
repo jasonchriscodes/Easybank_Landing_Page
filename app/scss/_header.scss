@@ -6,6 +6,9 @@
   $__menu { // Mobile Menu
     > span { // using direct child selector
      display: block;
+     width: 26px;
+     height: 2px;
+     background-color: $darkBlue;
     }
   }
 }
